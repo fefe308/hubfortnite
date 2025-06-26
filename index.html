@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FORTNITE HUB</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4ff;
+      color: #333;
+    }
+    header {
+  background-image: url('https://cdn2.unrealengine.com/es-es-28comp-fncs-keyart-logo-2024-social-1920x1080-d5a5946ff6b8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 5rem 1rem;  /* aumenté el padding vertical */
+  min-height: 400px;   /* altura mínima para más espacio */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* para centrar verticalmente el texto */
+  align-items: center;
+  text-align: center;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 0;
+}
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen para mejor lectura */
+      z-index: -1;
+      border-radius: inherit;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      background: #ffffff;
+      padding: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    nav button {
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      border: none;
+      padding: 12px 24px;
+      color: #333;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+    nav button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .content {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      display: none;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 2rem;
+      margin-top: 1rem;
+    }
+    section.active {
+      display: block;
+    }
+    h2 {
+      color: #6a5acd;
+      font-size: 1.8rem;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 1rem 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #6a5acd;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Guía Fortnite 2025</h1>
+    <p>Todo lo que necesitás saber sobre el mundo Fortnite, en un solo lugar.</p>
+  </header>
+
+  <nav>
+    <button onclick="showSection('vbucks')">🪙 Pavos baratos</button>
+    <button onclick="showSection('descargas')">📲 Descargar Fortnite</button>
+    <button onclick="showSection('jugadores')">🏆 ¿Que es Fortite?</button>
+    <button onclick="showSection('creativos')">🧠 Modos creativos</button>
+  </nav>
+
+  <div class="content">
+
+    <section id="descargas">
+      <h2>📲 Cómo descargar Fortnite en todas las plataformas</h2>
+      <img src="https://cdn2.unrealengine.com/fortnite-download-promo-1920x1080.jpg" alt="Descargar Fortnite" />
+      <ul>
+        <li><strong>PC:</strong> Epic Games Store → <a href="https://store.epicgames.com" target="_blank">store.epicgames.com</a></li>
+        <li><strong>Xbox/PS/Switch:</strong> Buscá "Fortnite" en sus tiendas oficiales.</li>
+        <li><strong>Android:</strong> Desde <a href="https://www.fortnite.com/android" target="_blank">fortnite.com/android</a></li>
+        <li><strong>iOS:</strong> Jugá vía nube con <a href="https://xbox.com/play" target="_blank">Xbox Cloud Gaming</a>.</li>
+      </ul>
+    </section>
+<section id="vbucks" class="active">
+  <h2>🎮 Cómo comprar el Club de Fortnite a $683 y pavos más baratos</h2>
+  <img src="https://cdn2.unrealengine.com/fortnite-club-2024-1920x1080.jpg" alt="Fortnite Club" />
+
+  <p>Si vivís en Argentina, hay una forma <strong>legal, segura y súper económica</strong> de conseguir el <strong>Club de Fortnite por solo $683</strong> y comprar <strong>pavos mucho más baratos</strong> usando <strong>Xbox Cloud Gaming</strong>, sin consola.</p>
+
+  <h3>💡 ¿Qué es Xbox Cloud Gaming?</h3>
+  <p>Es una plataforma oficial de Microsoft para jugar desde la nube. No necesitás consola: entrá a <a href="https://xbox.com/play" target="_blank">xbox.com/play</a> y jugá gratis desde tu navegador.</p>
+
+  <h3>✅ ¿Qué incluye el Club de Fortnite?</h3>
+  <ul>
+    <li>Pase de batalla actual</li>
+    <li>1.000 pavos por mes</li>
+    <li>Skin y cosméticos exclusivos</li>
+    <li>Acceso a LEGO Fortnite, Festival Musical y Rocket Pass Premium</li>
+  </ul>
+  <p>Desde Xbox Cloud cuesta solo <strong>$683 ARS</strong> por mes (más impuestos).</p>
+
+  <h3>🛒 ¿Cómo comprarlo?</h3>
+  <ol>
+    <li>Entrá a <a href="https://xbox.com/play" target="_blank">xbox.com/play</a> y logueate con tu cuenta Microsoft</li>
+    <li>Buscá Fortnite y hacé clic en “Jugar gratis”</li>
+    <li>Entrá al menú del Club y tocá “Unirse”</li>
+    <li>Pagá con tarjeta o saldo</li>
+  </ol>
+
+  <h3>💰 ¿Cuánto cuestan los pavos?</h3>
+  <table border="1" cellpadding="8" style="border-collapse: collapse; margin-top: 1rem; background-color: #f9f9f9;">
+    <tr><th>Paquete</th><th>Precio (ARS)</th></tr>
+    <tr><td>1.000 V-Bucks</td><td>~$2.300</td></tr>
+    <tr><td>2.800 V-Bucks</td><td>~$5.400</td></tr>
+    <tr><td>5.000 V-Bucks</td><td>~$9.000</td></tr>
+    <tr><td>13.500 V-Bucks</td><td>~$18.000</td></tr>
+  </table>
+
+  <h3>🎯 Tips para ahorrar más</h3>
+  <ul>
+    <li>💎 Usá <strong>Microsoft Rewards</strong> para conseguir saldo gratis</li>
+    <li>💳 Cargá saldo con tarjetas o billeteras</li>
+    <li>🔁 <strong>Desactivá la renovación automática</strong> si no querés seguir pagando</li>
+    <li>🎁 Epic te devuelve el 20% en compras (Epic Rewards)</li>
+  </ul>
+
+  <h3>📌 Resumen</h3>
+  <ul>
+    <li>🎮 Fortnite: <strong>Gratis</strong></li>
+    <li>💎 Club de Fortnite: <strong>$683 ARS/mes</strong></li>
+    <li>🪙 1.000 V-Bucks: <strong>~$2.300 ARS</strong></li>
+    <li>🚀 Todo sin consola, solo con <a href="https://xbox.com/play" target="_blank">Xbox Cloud Gaming</a></li>
+  </ul>
+
+  <p style="margin-top: 1.5rem;"><strong>Conclusión:</strong> Si querés ahorrar y jugar full Fortnite, esta es la forma más barata en Argentina. 😉</p>
+</section>
+
+
+    <section id="jugadores">
+      <h2>🏆 ¿Que es Fortnite? (2025)</h2>
+      <img src="https://cdn2.unrealengine.com/fortnite-players-competing-1920x1080.jpg" alt=" Fortine" />
+       <p><strong>Fortnite</strong> es un videojuego multijugador en línea creado por Epic Games. Fue lanzado en 2017 y desde entonces se volvió uno de los juegos más populares del mundo. Hay varias modalidades, pero la más famosa es el <strong>Battle Royale</strong>. Te explico de qué se trata:</p>
+
+  <hr style="margin: 2rem 0; border: none; height: 2px; background-color: #ddd;" />
+
+  <h3>🎮 ¿De qué se trata <em>Fortnite</em>?</h3>
+  <p><strong>Fortnite Battle Royale</strong> es un juego de supervivencia donde 100 jugadores se enfrentan en una isla y el último en quedar vivo gana. Se trata de una combinación entre combate, exploración y construcción. Estas son sus principales características:</p>
+
+  <h3>🧱 <strong>Construcción</strong></h3>
+  <p>Podés construir estructuras como paredes, rampas y pisos con materiales que recolectás (madera, piedra y metal). Esto sirve tanto para defenderte como para atacar estratégicamente.</p>
+
+  <h3>💣 <strong>Combate</strong></h3>
+  <p>Encontrás armas, objetos curativos, escudos y más en cofres, casas, o tirados por el mapa. Tenés que eliminar a otros jugadores para sobrevivir.</p>
+
+  <h3>🗺️ <strong>Mapa dinámico</strong></h3>
+  <p>El mapa cambia constantemente con nuevas zonas, eventos y temáticas por temporada (por ejemplo: de Marvel, Star Wars, etc).</p>
+
+  <h3>🎉 <strong>Eventos y skins</strong></h3>
+  <ul>
+    <li>Eventos en vivo (conciertos, finales de temporada, etc.)</li>
+    <li>Skins y accesorios de personajes famosos (como Goku, Spider-Man, Ariana Grande, etc.)</li>
+    <li>Pase de batalla con recompensas al subir de nivel.</li>
+  </ul>
+
+  <h3>🤝 <strong>Modos de juego</strong></h3>
+  <ul>
+    <li><strong>Battle Royale</strong> (solo, dúo, escuadrón): el clásico todos contra todos.</li>
+    <li><strong>Zero Build</strong>: mismo juego, pero sin construcción.</li>
+    <li><strong>Creativo</strong>: podés crear tus propios mapas o jugar mapas hechos por otros.</li>
+    <li><strong>Salva el Mundo</strong>: modo cooperativo contra enemigos controlados por el juego.</li>
+  </ul>
+</section>
+
+    <section id="creativos">
+      <h2>🧠 Modos creativos más jugados</h2>
+      <img src="https://cdn2.unrealengine.com/fortnite-creative-modes-1920x1080.jpg" alt="Mapas creativos Fortnite" />
+      <ul>
+        <li><strong>The Pit – FFA:</strong> Acción libre para practicar.</li>
+        <li><strong>Box Fights / Realistic 1v1:</strong> Mejora tu construcción y edición.</li>
+        <li><strong>OnlyUp Fortnite:</strong> Parkour y precisión en modo viral.</li>
+        <li><strong>Horror Maps:</strong> Experiencias cooperativas con sustos y misiones.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
